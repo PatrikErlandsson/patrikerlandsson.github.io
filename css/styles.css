@@ -1,0 +1,288 @@
+/*GLOBAL START**************************/
+
+h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bodoni';
+    width: 100%;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+
+/*GLOBAL END****************/
+
+/*HEADER START**************/
+
+#mini_logo {
+    background-image: url(../img/header_logo.png);
+    background-repeat: none;
+    display: inline-block;
+    height: 33px;
+    width: 35px;
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+header {
+    height: 45px;
+    background-color: #003b66;
+    padding: 5px;
+}
+
+
+
+header h2 {
+    color: #fff;
+    margin: 5px;
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
+}
+header ul {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+header ul li{
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    float: left;
+}
+
+
+header li ul{
+    display: none;
+}
+
+header ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 10px;
+    background-color: #003b66;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+header ul li a:hover {
+    background: #003b66;
+    color: #fff;
+}
+
+header li:hover ul {
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+header li:hover li {
+    float: none;
+}
+
+header li:hover li:first-child
+{
+    float: none;
+    margin-top: 10px;
+}
+
+header li:hover a 
+{
+    background: #003b66;
+}
+
+header li:hover li a:hover {
+    background: #2d5776;
+}
+
+header h2 {
+    margin: 0;
+    margin-bottom: 16px;
+    margin-left: 10px;
+}
+
+#user_welcome {
+    color: #eba828;
+}
+
+header ul li a:hover {
+    color: #eba828;
+}
+
+header ul li ul li:hover {
+    color: #eba828;
+}
+
+#logo {
+    margin-top: 5px;
+}
+
+
+
+
+
+/***************/
+/*HEADER END**************/
+
+/*MAIN START**************/
+
+main {
+    margin-top: 70px;
+}
+
+
+.main-banner {
+		background: #dfe2e4;
+		text-align: center;
+		padding: 50px 15px;
+		margin-bottom: 70px;
+	}
+
+.main-content {
+    min-width:400px;
+    text-align: center;
+    padding: 20px;
+}
+
+#hiddenContent {
+    display: none;
+}
+
+
+
+.test {
+    border: 2px solid;
+}
+
+
+#user_welcome {
+    color: #eba828;
+}
+
+#logged_user {
+    font-size: 18px;
+    float: right;
+    color: #fff;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: block;
+    padding: 5px;
+    color: tomato;
+}
+
+#reg_button {
+    margin-right: 20px;
+}
+
+pre {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+#google-maps{
+    width: 250px;
+    height:190px;
+}
+
+.table_style {
+    min-width: 500px; 
+    max-width: 500px;
+}
+
+th scope {
+   background-color: red; 
+}
+
+.message_boxes {
+    margin: 10px;
+    margin-right: 15px;
+}
+
+.submit {
+    text-align: center;
+    color:#000;
+    border: none;
+    width: 100%;
+    height: 30px;
+    background-color: #004c8a;
+    border: solid 1px #004c8a;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.submit:hover, .deleteButton:hover {
+    background-color: #f0f0f0;
+    border: solid 1px #004c8a;
+    color: #004c8a;
+    cursor: pointer;
+}
+
+#send_file {
+    width: 100px;
+}
+
+#hitta_hit {
+    margin-right: 360px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#active_students {
+    font-size: 12px;
+}
+
+#inactive_students {
+    font-size: 12px;
+}
+
+.banner_title {
+    color: #454545;
+}
+
+#map-canvas {
+    
+}
+
+.student_status {
+    font-weight: bold;
+    font-family: 'Bodoni';
+}
+
+/*MAIN END**************/
+
+/*FOOTER START**********/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #454545;
+    clear:both;
+    
+}
+
+/*FOOTER END***********/

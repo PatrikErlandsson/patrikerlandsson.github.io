@@ -1,0 +1,12 @@
+#formWrapper {
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-100%);
+    display: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
