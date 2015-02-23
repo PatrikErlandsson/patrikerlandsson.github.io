@@ -278,9 +278,10 @@ th scope {
 /*FOOTER START**********/
 
 footer {
+    background-color: #7f9db2;
     text-align: center;
     padding: 10px;
-    color: #454545;
+    color: white;
     clear:both;
     
 }
